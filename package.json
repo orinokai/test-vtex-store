@@ -57,7 +57,7 @@
     "@graphql-codegen/typescript": "^2.2.4",
     "@graphql-codegen/typescript-operations": "^2.1.8",
     "@lhci/cli": "^0.9.0",
-    "@netlify/plugin-gatsby": "^3.0.0-beta",
+    "@netlify/plugin-gatsby": "^3.0.0",
     "@testing-library/cypress": "^8.0.0",
     "@types/cypress": "^1.1.3",
     "@vtex/lighthouse-config": "^1.7.14",

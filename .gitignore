@@ -72,3 +72,6 @@ yarn-error.log
 .lighthouseci
 
 static/~partytown
+
+# Local Netlify folder
+.netlify
