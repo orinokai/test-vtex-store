@@ -107,7 +107,9 @@ const onPostBuild = async (
     if (mode === `SSR` || mode === `DSG`) {
       needsFunctions = true
       const fromPath =
-        matchPath !== null && matchPath !== void 0 ? matchPath : path
+        matchPath !== null && matchPath !== void 0
+          ? matchPath.replace(/\*.*/, '*')
+          : path
       const toPath =
         mode === `SSR`
           ? `/.netlify/functions/__ssr`
