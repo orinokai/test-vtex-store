@@ -134,7 +134,7 @@ const onPostBuild = async (
       matchPath !== path
     ) {
       rewrites.push({
-        fromPath: matchPath,
+        fromPath: matchPath.replace(/\*.*/, '*'),
         toPath: path,
       })
     }
